@@ -103,13 +103,60 @@ p {
     align-items: center;
     
 
-}
-.button{
-    background-color: rgb(153, 153, 163);
-    width: 50%;
-    padding: 1%;
-    margin: 10px;
-    text-align: center;
-    align-items: center;
-    border-radius: 1%;
-}
+.usuario{
+        align-items:flex-start;
+        text-align: center;
+        margin-right: 15px;
+     }
+
+     .contraseña{
+        align-items: flex-start;
+        text-align: center;
+        margin-right: 20px;
+     }
+ 
+    .btn{
+        background: rgb(58, 20, 119);
+        width:50%;
+        padding:10px;
+        margin:5px;
+        align-items: center;
+       }
+       p{
+        position: absolute;
+        width: 347px;
+        height: 127px;
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 31px;
+        text-align: center;
+        
+        color: #fdfcfc;
+       }
+       h1{
+        position:static;
+        width: 251px;
+        height: 50px;
+
+       font-family: 'Courier New', Courier, monospace;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 36px;
+       line-height: 53px;
+       text-align: center;
+
+       color: #FFF8F8;
+
+       
+       }
+       h2{
+         font-family:sans-serif ;
+         font-style: italic;
+         font-weight: bold;
+         font-size: 50px;
+         text-align: start;
+         color: white;
+       }
