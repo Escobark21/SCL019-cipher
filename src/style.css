@@ -1,8 +1,11 @@
 body{
     background: rgb(0, 0, 0);
-    padding: 3%;
-    margin: 2%;
-    text-align: center;
+    padding-right: 0%;
+    padding-top: 1%;
+    padding-left: 12%;
+    padding-bottom: 20%;
+    margin: 0%;
+    
     
 }
 
@@ -10,30 +13,34 @@ h2 {
     font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
-    text-align: start;
-    color: rgb(247, 242, 242);
-    font-size: 600%;
-    padding: 2%;
-    margin: 2%;
+    text-align: left;
+    color: rgb(131, 71, 126);
+    font-size: 550%;
+    padding: 3%;
+    margin: 0%;
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 5%;
+    
 }
 h1 {
-    width: 251px;
-    height: 50px;
+    width: 260px;
+    height: 40px;
     font-family: "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 35px;
+    line-height: 40px;
     text-align: left;
-    color: rgb(236, 232, 232);
+    color: rgb(73, 133, 201);
     padding: 1%;
     margin:  0%;
 }
 .contenedor-login {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
-    padding: 0%;
+    padding: 1%;
     margin: 0%;
 }
 .usuario {
@@ -47,116 +54,72 @@ h1 {
 }
 .contenedor{
     background-color: rgb(117, 117, 126);
-    width:60 vw;
-    height:5 vw;
+    width: 100%;
+    height: 10%;
     display: inline-flex;
     flex-direction: initial;
-    object-position: center;
-    justify-content: left;
-    align-items: left;
+    object-position: right;
+    justify-content: right;
+    align-items: flex-end;
     margin-right: 10px;
-    padding: 20px;
+    padding: 8px;
     border-radius: 35px 0px;
 }
 
 
 .contenedor-img {
-    display: flex;
+    display:flex;
     background-image: url(https://www.comminit.com/files/imagecache/rotator_980x400/captura_de_pantalla_2020-12-09_a_las_7.38.40_p.m.png);
     background-size: cover;
-    background-position: center center;
+    background-position: right;
     background-repeat: no-repeat;
-    padding: 10%;
+    padding: 20% 30%;
 }
 .ubicador {
-    display: inline-block;
-    margin-block-start: auto;
-    padding: 18%;
+    display: inline-flex;
+    padding: 1%;
+    justify-content:right;
+    padding-left: 20%;
+    padding-right: 1%;
 }
 
-p {
-    position: absolute;
+.p {
+    position: relative;
     width: 25%;
     height: 25%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "sans-serif";
     font-style: oblique;
-    font-size: 100%;
+    font-weight: 600%;
     line-height: 150%;
     text-align: left;
-    color: rgb(214, 212, 212);
-    background-color: rgb(112, 114, 119);
-    border-radius: 10px;
-    }
-.cajas {
-    font-family: sans-serif;
     font-size: 15px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    height: 60px;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    background: rgb(121, 123, 128);
-    padding: 2%;
-    margin: 3%;
-    border-radius: 35px 0px;
-    align-items: center;
-    
+    line-height: 30px;
+    justify-content: center;
+    }
 
-.usuario{
-        align-items:flex-start;
-        text-align: center;
-        margin-right: 15px;
-     }
-
-     .contraseña{
-        align-items: flex-start;
-        text-align: center;
-        margin-right: 20px;
-     }
- 
-    .btn{
-        background: rgb(58, 20, 119);
-        width:50%;
-        padding:10px;
-        margin:5px;
-        align-items: center;
-       }
-       p{
-        position: absolute;
-        width: 347px;
-        height: 127px;
-        
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 31px;
-        text-align: center;
-        
+    p{ 
+         
         color: #fdfcfc;
        }
-       h1{
-        position:static;
-        width: 251px;
-        height: 50px;
+.cajas {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: rgb(121, 123, 128);
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 35px 0px;
+    align-items: flex-end;
+    }
 
-       font-family: 'Courier New', Courier, monospace;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 36px;
-       line-height: 53px;
-       text-align: center;
 
-       color: #FFF8F8;
-
+    
        
-       }
-       h2{
-         font-family:sans-serif ;
-         font-style: italic;
-         font-weight: bold;
-         font-size: 50px;
-         text-align: start;
-         color: white;
-       }
+ 
+       
