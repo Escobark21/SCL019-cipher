@@ -1,12 +1,63 @@
 body{
     background: rgb(0, 0, 0);
-    padding: 1;
-    margin: 1;
+    padding: 3%;
+    margin: 2%;
+    text-align: center;
     
 }
 
- 
-
+h2 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: start;
+    color: rgb(247, 242, 242);
+    font-size: 600%;
+    padding: 2%;
+    margin: 2%;
+}
+h1 {
+    width: 251px;
+    height: 50px;
+    font-family: "Courier New", Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: left;
+    color: rgb(236, 232, 232);
+    padding: 1%;
+    margin:  0%;
+}
+.contenedor-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0%;
+    margin: 0%;
+}
+.usuario {
+    align-items: flex-start;
+    text-align: center;
+    margin-right: 15px;
+}
+.contraseña {
+    text-align: center;
+    margin-right: 15px;
+}
+.contenedor{
+    background-color: rgb(117, 117, 126);
+    width:60 vw;
+    height:5 vw;
+    display: inline-flex;
+    flex-direction: initial;
+    object-position: center;
+    justify-content: left;
+    align-items: left;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 35px 0px;
+}
 
 h2 {
         font-family: sans-serif;
@@ -19,14 +70,49 @@ h2 {
         margin: 0%;
 }
 
-.contenedor-login {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        padding: 0%;
-        margin: 0%;
+.contenedor-img {
+    display: flex;
+    background-image: url(https://www.comminit.com/files/imagecache/rotator_980x400/captura_de_pantalla_2020-12-09_a_las_7.38.40_p.m.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+.ubicador {
+    display: inline-block;
+    margin-block-start: auto;
+    padding: 18%;
 }
 
+p {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: oblique;
+    font-size: 100%;
+    line-height: 150%;
+    text-align: left;
+    color: rgb(214, 212, 212);
+    background-color: rgb(112, 114, 119);
+    border-radius: 10px;
+    }
+.cajas {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(121, 123, 128);
+    padding: 2%;
+    margin: 3%;
+    border-radius: 35px 0px;
+    align-items: center;
+}
+    
 
 .usuario{
         align-items:flex-start;
@@ -119,4 +205,16 @@ p{
       
 
 
-     
+      p{ color: #FFF8F8;
+    }
+
+       
+
+       h2{
+         font-family:sans-serif ;
+         font-style: italic;
+         font-weight: bold;
+         font-size: 50px;
+         text-align: start;
+         color: white;
+       }

@@ -6,74 +6,57 @@
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <div id="root">
-
-
-    <i>
-      <h2> UNIDAS </h2>
-
+    <header>
+      <i>
+       <h2>UNIDAS</h2>
     </i>
-
-    <section class="contenerdor-login">
-
-      <div>
+  </header>
+    <section class="contenedor-login">
+<div>
         <div class="contenedor">
+          <h1>LOGIN</h1>
           <br>
-          <h1> LOGIN </h1>
-          <br>
-          <div class="usuario">Usuario <input type="text" value=""></div>
-          <div class="contraseña">Contraseña <input type="password" value="" name="clave"></div>
-
-
-        </div>
+          <div class="usuario">usuario<input type="text" value="">
+          </div>
+          <div class="contraseña">contraseña<input type="password" name="clave" value="">
+          </div>
     </section>
-
     <br>
     <section class="contenedor-img">
       <div class="imagen1">
-        <!---<img src="https://i.ibb.co/j5C37yC/WomanPwr.png"> -->
+        <!--<img src="https://i.ibb.co/j5c37yc/womanpwr.png"-->
       </div>
-
-      <p> La aplicación esta dirigida a mujeres
-        que se encuentren en situación de riesgo.
-        Envía un codigo unico y secreto,
-        el cual despliega su ubicación,
-        y a la vez permite la grabacion de audio desde su
-        movil el cual sera recibido
-        por su contacto de emergencia. </p>
-
+     <main>
+      <p>La aplicación esta dirigida a mujeres que se encuentren en situación de riesgo.
+        Envía un codigo unico y secreto,el cual despliega su ubicación,y a la vez permite la grabacion de audio desde su movil el cual sera recibido
+        por su contacto de emergencia.</p>
+      </main>
+      <br>
+      <br>
       <div class="ubicador"></div>
 
-
-
-
-
-
-      <div class="cajas">
-
-        <div class="usuario">usuario<input type="text" name="usercode" value="" id="usercode">
-        </div>
-        <br>
-        <div class="codigo">codigo cifrado <input type="text" name="codigo" value="" id="codigo"> </div>
-        <br>
-
-        <div class="button" id="desencriptar" onclick="function cripto()">
-        <input type="button" onclick="function cripto()"> desencriptar </button></div>
-        <br>
-        <br>
-        <div class="ubicacion"> ubicacion <input type="text" value=""></div>
-
-      </div>
-      <br>
-
+     <div class="cajas">
+     <div class="usuario">usuario<input type="text" value="">
+     </div>
+     <br>
+     <div class="código">código cifrado<input type="text" value="">
+     </div>
+     <br>
+     <div class="button"> <button onclick="desencriptado"> desencriptar</button></div>
+    
+     <br>
+     <br>
+     <div class="ubicación">ubicación<input type="text" value="">
+     </div>
     </section>
+  </div>
+  </div>
+  </div>
 
-
-
-
-    <script src="index.js" type="module"></script>
+  </div>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>
