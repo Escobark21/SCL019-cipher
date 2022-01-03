@@ -9,72 +9,74 @@
 
 <body>
   <div id="root">
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="UNIDAS nav-link"></a>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="home.html" class="nav-menu-link nav-link"></a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="nosotras.html" class="nav-menu-link nav-link">NOSOTRAS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="ayuda.html" class="nav-menu-link nav-link">AYUDA</a>
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="login.html" class="nav-menu-link nav-link">LOGIN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
     <header>
 
       <section class="contenedor-login">
+
         <br>
         <h2>UNIDAS</h2>
         <br>
-        <div class="contenedor">
-          <h1>LOGIN</h1>
-          <br>
-          <div class="usuario">usuario<input type="text" value="">
-          </div>
-          <div class="contraseña">contraseña<input type="password" name="clave" value="">
-          </div>
+        <br>
+        <br>
+
+  </div>
+  </div>
+  </section>
+  </header>
+  <main>
+    <section class="ubicador">
+      <div class="contenedor-img">
+        <div class="imagen1">
+          <!--<img src="https://i.ibb.co/j5c37yc/womanpwr.png"-->
         </div>
-      </section>
-    </header>
-    <main>
-      <section class="ubicador">
-        <div class="contenedor-img">
-          <div class="imagen1">
-            <!--<img src="https://i.ibb.co/j5c37yc/womanpwr.png"-->
-          </div>
-
-
-          <br>
-          <br>
-
-
-          <div class="cajas">
-            <div class="usuario">usuario<input type="text" value="">
-            </div>
-            <br>
-            <div class="código">código cifrado<input type="text" value="">
-            </div>
-            <br>
-            <div class="button"> <button onclick="desencriptado"> desencriptar</button></div>
-
-            <br>
-            <br>
-            <div class="ubicación">ubicación<input type="text" value="">
-            </div>
-          </div>
-    </main>
     </section>
-    <p>Esta pagina web y aplicación esta dirigida a mujeres que se encuentren en situación de riesgo.
-      Envía un código unico y secreto, 
+    <br>
+    <div class="cajas">
+      <div class="usuario">Mensaje<input type="text" id="mensaje">
+      </div>
       <br>
-      el cúal despliega su ubicación, y a la vez permite la grabación de audio desde
-      su movil, el cual sera recibido por su contacto de emergencia.
+      <div class="código">Código cifrado<input type="number" id="desplazamiento">
+      </div>
       <br>
+      <div class="button"><button type="button" id="cifrar">Cifrar</button><button type="button"
+          id="descifrar">Descifrar</button></div>
       <br>
-      ¿Cómo funciona?
-      <br>
-      ¿Cómo podemos ayudarte?
-      <br>
-      ¿Qué es y cómo funciona esta plataforma?
-      <br>
-      ¿Cómo puedes comunicarte con nosotres?
-      <br>
+      <div class="ubicación">Mensaje de emergencia<input type="text" id="mensaje2">
+      </div>
+    </div>
+    </div>
+    <br>
+  </main>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
 
-    </p>
-  </div>
-  </div>
-  </div>
-
-  </div>
+  <br>
+  </p>
   <script src="index.js" type="module"></script>
 </body>
 
